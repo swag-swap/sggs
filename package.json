@@ -1,0 +1,20 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "deploy": "rm -rf dist/ && npm run build && gh-pages -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "homepage": "https://swag-swap.github.io/sggs",
+  "keywords": [],
+  "author": "Swapnil Deshmukh",
+  "license": "ISC",
+  "dependencies": {
+    "dat.gui": "^0.7.9",
+    "gh-pages": "^4.0.0",
+    "three": "^0.145.0"
+  }
+}
